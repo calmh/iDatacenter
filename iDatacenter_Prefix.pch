@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'iDatacenter' target in the 'iDatacenter' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_2
+#warning "This project uses features only available in iPhone SDK 3.2 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define UI_REFRESH_INTERVAL 2
+#define MAX_IN_FLIGHT_REQUESTS 5
+
+#ifdef TRACE
+#define DTRACE NSLog((@"%@#%d %s"), [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, __PRETTY_FUNCTION__);
+#define DLOG(fmt,...) NSLog((@"%@#%d %s " fmt), [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, __PRETTY_FUNCTION__, __VA_ARGS__);
+#else
+#define DTRACE
+#define DLOG(fmt,...)
+#endif
+
+#define MAX_BETA_AGE (60*60*24*30)
+
+#define BLUE_TINT [UIColor colorWithRed:0.32f green:0.56f blue:0.89f alpha:1.0f]
+#define GREEN_TINT [UIColor colorWithRed:0.32f green:0.89f blue:0.56f alpha:1.0f]
+#define RED_TINT [UIColor colorWithRed:0.89f green:0.56f blue:0.32f alpha:1.0f]
+#define GRAY_CELL_BACKGROUND [UIColor colorWithWhite:1.0f alpha:0.5f]
+#define BLUE_CELL_BACKGROUND [UIColor colorWithRed:0.9f green:1.0f blue:1.0f alpha:0.5f]
+#define GREEN_CELL_BACKGROUND [UIColor colorWithRed:0.9f green:1.0f blue:0.9f alpha:0.5f]
+#define RED_CELL_BACKGROUND [UIColor colorWithRed:1.0f green:0.9f blue:0.9f alpha:0.5f]
+#define YELLOW_CELL_BACKGROUND [UIColor colorWithRed:1.0f green:1.0f blue:0.9f alpha:0.5f]
+#define LIGHT_GRAY_BACKGROUND [UIColor colorWithWhite:0.9f alpha:1.0f]
+#define HEADER_LABEL_COLOR [UIColor colorWithRed:0x4c / 255.0f green:0x56 / 255.0f blue:0x6c / 255.0f alpha:1.0f]

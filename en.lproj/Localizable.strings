@@ -1,0 +1,45 @@
+/* 
+   untitled.strings
+   iDatacenter
+
+   Created by Jakob Borg on 5/16/10.
+   Copyright 2010 Jakob Borg. All rights reserved.
+ */
+
+"datacenter_plural" = "Datacenters";
+"datacenter" = "Datacenter";
+"hostsystem_plural" = "Hosts";
+"hostsystem" = "Host";
+"virtualmachine_plural" = "VMs";
+"virtualmachine" = "VM";
+"selection" = "Selection";
+"folder" = "Folder";
+"folder_plural" = "Folders";
+"item_plural" = "Items";
+"poweredOn" = "Powered On";
+"poweredOff" = "Powered Off";
+"suspended" = "Suspended";
+"suspending" = "Suspending...";
+"poweringOn" = "Powering On...";
+"poweringOff" = "Powering Off...";
+"resetting" = "Resetting...";
+"connected" = "Connected";
+"disconnected" = "Disconnected";
+"notResponding" = "Not Responding";
+"Updated" = "Updated";
+"cannot_find_server" = "Cannot find the server. Verify the server name and try again.";
+"could_not_connect" = "Could not connect to the Internet. Verify that you have internet connectivity and try again.";
+"refused_auth" = "The server refused authentication. Verify your username and password and try again.";
+"timeout" = "Could not connect to the server. Verify the server name, that the server is running, and your connectivity to the server.";
+"error_404" = "The server responded with a 404 error. Verify that the server is a genuine vCenter Server of a supported version.";
+"network_error" = "Network Error";
+"OK" = "OK";
+"Not Connected" = "Not Connected";
+"Disconnected" = "Disconnected";
+"toolsNotInstalled" = "Not Installed";
+"toolsOld" = "Running, Outdated";
+"toolsOk" = "Running, Up to date";
+"toolsNotRunning" = "Not Running";
+"betaMessage" = "This is a beta release, expect rough edges. For updates on what's going on, please follow @nymnetworks on Twitter.";
+"oldBetaMessage" = "You've had this beta release installed for quite a while now. There is probably a newer version. Please follow @nymnetworks on Twitter for status updates and check for a newer version, or send an email to idatacenter@nym.se.";
+"dbError" = "A problem was encountered opening the database. End the app by pressing the home button. If the problem persists, remove and reinstall the app.";

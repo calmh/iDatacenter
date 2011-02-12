@@ -1,0 +1,77 @@
+iTunes Information
+=================
+
+iDatacenter is an app that gives you the power to administer you virtual datacenter from anywhere, using just your iPad. You can follow vital statistics on a virtual machine, a physical host or an entire datacenter. Virtual machines can be restarted, shut down, and moved to a different datastore.
+
+The following features are supported in the current version of iDatacenter:
+
+• Aggregate statistics per datacenter.
+
+• Individual statistics and status for each physical host, virtual machine.
+
+• Search/filter to find the host or virtual machine you are looking for.
+
+• Use Storage vMotion to migrate a virtual machine from one datastore to another.
+
+• Suspend and power on/off virtual machines.
+
+• Soft reboot and soft shutdown of virtual machine with VMWare Tools installed.
+
+• Enter and exit maintenance mode, disconnect and reconnect, reboot or shutdown hosts.
+
+• Data cache for fast startup and navigation.
+
+Features only supported when they are present in the underlying vCenter installation. Some features may require specific licenses acquired separately from VMWare. Free versions of vSphere Hypervisor can be connected, but are read only.
+
+iDatacenter requires:
+
+• a vCenter Server, version 4.0 or newer.
+
+• a network connection that is allowed to connect to the vCenter Server. The iPads built-in VPN client can be used.
+
+What's New
+==========
+
+New in 1.1:
+
+• New, cleaner user interface.
+
+• Storage vMotion.
+
+• Support for handling maintenance mode and host reboot or shutdown.
+
+• Recent tasks and configuration issues are shown.
+
+• Lots and lots of small fixes.
+
+New in 1.1.1:
+
+• Minor bugfixes.
+
+Branch structure
+================
+
+master - Tagged releases.
+
+Every commit on master has a unique build number, and usually a unique
+version number as well. In case of re-releases after rejecting binaries,
+the version number and tag might be reused, but the build number always
+increases.
+
+develop - Integration.
+
+Develop is where master comes from. Usually the state of the develop
+branch should be such that a new stable release can be produced at any
+time by simply merging develop to master. This can be used to produce a
+new x.y.z version weekly or biweekly for the app store.
+
+next - Development for next version.
+
+Next contains the bleeding edge, beta quality, unfinished code. When
+develop catches up to next, it's probably time for a x.y.0 release.
+
+feature/x - Partial development of a certain feature.
+
+Unfinished features live in their own branch. When features are ready
+for beta testing, they are merged to next. Feature branches should be
+frequently rebased to next.
