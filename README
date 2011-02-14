@@ -21,6 +21,8 @@ The following features are supported in the current version of iDatacenter:
 
 • Data cache for fast startup and navigation.
 
+• Basic visualization of host/datastore/network relations.
+
 Features only supported when they are present in the underlying vCenter installation. Some features may require specific licenses acquired separately from VMWare. Free versions of vSphere Hypervisor can be connected, but are read only.
 
 iDatacenter requires:
